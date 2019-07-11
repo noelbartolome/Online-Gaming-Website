@@ -1,0 +1,368 @@
+/* css reset */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    column-span: 0;
+    background: url(../img/pabg.jpg)  fixed ;
+    background-repeat: no-repeat; 
+    font-family: sans-serif;
+    font: Futura;
+}
+div,ul,li,a,span,p{
+    margin: 0;
+    padding: 0;
+}
+}
+a, u { text-decoration: none; }
+
+/* end css reset */
+#admin{
+    background: url(../img/AXE.jpg) center fixed ;
+    background-repeat: no-repeat; 
+    
+}
+#uppart{
+    width: 100%;
+    height:50px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+/*    background-color: darkred;*/
+}   
+#uppart img{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: auto;
+
+}
+#uppart #cart{
+    position: relative;
+    width: auto;
+    height: 20px;
+    display: block;
+    float: left;
+    padding: 15px 0 15px 0;
+}
+#uppart ul{
+    
+    list-style-type: none;
+   
+}
+
+#uppart a{
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 50px;
+    width: auto;
+    display:block;
+    float: right;
+    line-height: 50px;
+    text-align: center;
+    margin:  0 5px 0 0; 
+}
+#uppart a:hover{
+    background-color: rgba(199,199,199,0.5);
+    border-radius: 15px;
+}
+
+#Navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;  
+    position: fixed;
+    top: 50px;
+    background-color: rgba(0,0,0,0.5);
+   z-index: 1;
+   
+}
+#Navbar #Hornav{
+    list-style-type: none;
+}
+#Navbar #Hornav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    display:block;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+  
+}
+#Navbar #Hornav a:hover{
+    background-color: #222;
+}
+#Navabr #Hornav li{
+    display: inline;
+    opacity: 1.0;
+}
+#content {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    height: auto;
+/*    background-color:green;*/
+    z-index: 0;
+    
+}
+#content #DugaNaDiv{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+/*    background-color:red;*/
+    z-index:inherit;
+}
+#content h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    display: block;
+}
+#content h3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    display: block;
+}
+
+#content #AboutUsContainer div{
+    position: relative;
+    width: 70%;
+    margin: auto;
+/*    background-color: red;*/
+}
+#content #AboutUsContainer p{
+    position: relative;
+    text-align: center;
+    font: Futura;
+    font-family: sans-serif;
+    color: aqua;
+    font-style:normal about;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    
+}
+#content #AboutUsContainer a{
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: auto;
+    margin:  0 40% 0 40%;
+}
+#content #prodContainer{
+/*    background-color:deeppink;*/
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#content #prodContainer #box_ng_prod{
+    position: relative;
+    display: block;
+    float: left;
+    width: 20%;
+    height: auto;
+    margin:  0 0 10px 5%;
+/*    background-color: aqua;*/
+}
+
+#content #prodContainer .product{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: rgba(248,86,37,0.5);
+    z-index: 1;
+    padding: 25px 0 25px 0;
+    border-radius: 20px;
+}
+
+#content #prodContainer .product img{
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: auto;  
+}
+
+#content #prodContainer .product p{
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+/*    background-color: orange;*/
+}
+#content #prodContainer .product a{
+    width:50%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color:#87290d;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid orange;
+}
+#content #prodContainer .product a:hover{
+    background-color:yellowgreen;
+}
+#content #form{
+    position: relative;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+   padding: 10% 0 10% 0;
+/*    background-color: blue;*/
+}
+#content #form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#content #form input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#content #form input[placeholder]{
+    text-align: center;
+}
+#content #form input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+}
+#content #form input[type=submit]:hover {
+    background-color: #45a049;
+}
+#content #form input[type=button]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+#content #form input[type=button]:hover {
+    background-color: #45a049;
+
+}
+#content #usercont {
+    
+    position: relative;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 10% 0% 10% 0%;
+    
+    
+    
+}
+#content #usercont p{
+    position: relative;
+    text-align: center;
+    font: Futura;
+    font-family: sans-serif;
+    color: aqua;
+    font-style:normal about;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+#tablediv{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: block;
+/*    background-color: blue; */
+}
+
+#tablediv table{
+    border-collapse:collapse;
+    position: relative;
+    display: block;
+    
+}
+#tablediv table #th{
+    background-color: #4CAF50;
+}
+#tablediv table #th,td{
+    border: 1px solid #7f7f7f;
+    color:white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+#tablediv table tr:hover{
+    background-color: #7f7f7f;
+}
+#tablediv table a{
+    text-decoration: none;
+    color: white;   
+}
+#tablediv table #ahor:hover{
+    background-color: red;
+}
+#tablediv table #ahor2:hover{
+    background-color: green;
+}
+
+#tablediv #total_price_holder{
+    position: relative;
+    width: 100%;
+    height:100px;
+    display: block;
+    background-color: =red;  
+}
+#tablediv #total_price_holder p{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    color: white;
+}
+#tablediv #checkout{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    float: right;
+    background-color: lightgreen;
+    height: 50px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+#tablediv #checkout:hover{
+    background-color: forestgreen;
+}
+
+
+
+
+
+
+
+
+
+
